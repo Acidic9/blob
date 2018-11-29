@@ -1,0 +1,18 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	min-height: 100vh;
+	background-color: #FAFAFA;
+}
+
+#canvas {
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	border: 1px solid #ebebeb;
+	background-color: #FFFFFF;
+}
